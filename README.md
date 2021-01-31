@@ -33,7 +33,7 @@ To run the project in parallel with OMP, you need:
   
 ## Customize execution settings
 
-To change the different coefficients, go to "Essaim.h" (they will also be changed for EssaimOMP.h and EssaimMPI.h). These have an impact on how efficient is the calculation of the speed.  
+To change the different coefficients, go to "Essaim.h" (they will also be changed for EssaimOMP.h and EssaimMPI.h). These have an impact on how efficient the calculation of the speed is.
 
 For a function with a lot of local minima, the following coeffcients are advised:  
 
@@ -45,6 +45,7 @@ In the main.cpp you can modify :
 - The number of particles at the creation of the swarm  
 - The number of dimensions at the creation of the swarm  
 - The number of iterations when calling algoEssaim  
+
 
 In Objectif.h  
 - You can choose which function to execute in the "()" operator.  
