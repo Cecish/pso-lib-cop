@@ -48,7 +48,7 @@ In the main.cpp you can modify :
 
 
 In Objectif.h  
-- You can choose which function to execute in the "()" operator. The library comes with a selection functions which can be used to for functions global minimum approximation: sphere function, sum squares function, Rastrigin function, Rosenbrock function, Trid function.
+- You can choose which function to execute in the "()" operator. The library comes with a selection functions which can be used for functions global minimum approximation: sphere function, sum squares function, Rastrigin function, Rosenbrock function, Trid function.
 - WARNING: you must choose the search space corresponding to the function chosen in the Objectif constructor.  
 
 ## Important note:
